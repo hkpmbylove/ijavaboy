@@ -10,7 +10,7 @@ import org.jdbc.async.cache.DoubleCacheList;
  */
 public final class UpdateEventManager {
 
-	private static final UpdateEventManager instance = new UpdateEventManager();
+	private static final UpdateEventManager instan = new UpdateEventManager();
 	
 	private CacheList<UpdateEvent> updateCache;
 	
